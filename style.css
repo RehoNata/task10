@@ -1,0 +1,77 @@
+
+h2 {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
+  padding: 3px;
+  text-align: center;
+  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+}
+
+h4 {color:blue; font-size:12px;}
+
+ul.head {
+    
+	font-size:24px;
+	list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li.head  {
+    float: left;
+}
+
+li.head  a,select {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li.head  a:hover {
+    color: red;
+}
+.p1 {
+	border:3px groove pink;
+	outline: 20px ridge yellow;
+	background:url(paper.jpg) left top repeat;
+	
+}
+
+div a img {
+	border: solid 5px red;
+}
+
+img {
+	background:white;
+	background-clip:padding-box;
+	border:5px solid green;
+	margin:20px;
+	padding:20px;
+	width: 50%;
+    height:145px;
+	
+}
+figure {
+	display: inline-block;
+	text-align: center;
+	}
+figcaption {
+            font-size:20px;
+			text-align:center;
+}
+img:hover {
+             opacity:0.4;
+}	
+button {
+	margin:20px;
+	padding:20px;
+	display: inline-block;
+	text-align: center;
+	}
+
+	
